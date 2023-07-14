@@ -12,4 +12,7 @@ int main(void)
 *return-returns the value 1
 */
 	return (0);
+/**
+*this is the end of the program
+*/
 }
