@@ -4,6 +4,7 @@
   *@s: pointer to the start of the memory block
   *@b: value that will be used to fill the memory
   *@n: total number of bytes to fill with the constant byte
+  *Return: pointer to s
   */
 char *_memset(char *s, char b, unsigned int n)
 {
