@@ -18,7 +18,7 @@ int recursive_helper(int n, int start)
 	if (start * start == n)
 		return (start);
 
-	return (recursive_helper(n, start - 1));
+	return (recursive_helper(n, start + 1));
 }
 
 /**
@@ -29,5 +29,5 @@ int recursive_helper(int n, int start)
 
 int _sqrt_recursion(int n)
 {
-	return (recursive_helper(n, 0));
+	return (recursive_helper(n, n));
 }
