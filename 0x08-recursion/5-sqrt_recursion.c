@@ -18,7 +18,7 @@ int recursive_helper(int n, int start)
 	if (start * start == n)
 		return (start);
 
-	return (recursive_helper(n, start + 1));
+	return (recursive_helper(n, start - 1));
 }
 
 /**
