@@ -14,12 +14,16 @@ char *create_array(unsigned int size, char c)
 	char *ptarray;
 	unsigned int count;
 
+	if (size == 0)
+		return (NULL);
+
 	ptarray = malloc(size * sizeof(char));
+
+	if (ptarray == NULL)
+		return (NULL);
 
 	for (count = 0; count < size; count++)
 	{
-		if (size == 0)
-			return (NULL);
 		ptarray[count] = c;
 	}
 
