@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 /**
   *main - entry point of the program
   *Retuen: 0 on sucess
